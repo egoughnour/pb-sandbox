@@ -1,0 +1,7 @@
+import "./acceleration.proto";
+import "./accelVector.proto";
+message SampleBurst {
+    optional int32 order = 1;
+    optional float timeSincePrevious = 2 [default = -1];
+    repeated AccelVector samples = 3;
+}
