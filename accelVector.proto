@@ -3,4 +3,5 @@ message AccelVector {
   optional Acceleration x = 1;
   optional Acceleration y = 2;
   optional Acceleration z = 3;
+  optional float timeSincePrevious [default = -1]; 
 }
