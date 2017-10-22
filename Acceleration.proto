@@ -1,0 +1,3 @@
+message Acceleration {
+  optional float scalarValue = 1;
+}
