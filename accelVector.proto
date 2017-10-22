@@ -1,3 +1,4 @@
+import "./acceleration.proto";
 message AccelVector {
   optional Acceleration x = 1;
   optional Acceleration y = 2;
