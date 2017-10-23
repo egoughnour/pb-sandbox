@@ -1,2 +1,2 @@
 # pb-sandbox
-Think protobuf tinkering, not mistakes in freeganism. 
+using this for sampled acceleration vector transmission.
