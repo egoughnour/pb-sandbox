@@ -1,0 +1,7 @@
+import "./acceleration.proto";
+import "./accelVector.proto";
+import "./sampleBurst.proto";
+message GestureInstance {
+  optional string name = 1;
+  repeated SampleBurst allSamples = 2;
+}
